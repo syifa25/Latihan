@@ -14,3 +14,15 @@ const fullName = "Umri Marsyifa";
 
 //fullName = "saya";
 document.writeln(fullName);
+
+
+let result = 1+ 2;
+document.writeln("<p> 1 + 2 = " + result + "</p>");
+let orResult = result;
+
+result = result - 1;
+document.writeln("<p>" + orResult + " - 1 = " + result + "</p>");
+orResult = result;
+
+result = result * 2;
+document.writeln("<p>" + orResult + " * 2 = " + result + "</p>");
